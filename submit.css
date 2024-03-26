@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#carForm {
+    width: 300px;
+    padding: 20px;
+    background: rgba(50, 50, 50, 0.8); /* Dark grey, semi-transparent */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#carForm label {
+    color: #ccc; /* Light grey */
+    display: block;
+    margin-bottom: 5px;
+}
+
+#carForm input[type="text"],
+#carForm textarea {
+    background: #333; /* Darker grey */
+    color: #fff; /* White */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555; /* Even darker grey */
+    border-radius: 3px;
+}
+
+#carForm input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#carForm input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+* {
+    box-sizing: border-box;
+}

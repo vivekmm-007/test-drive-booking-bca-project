@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;    line-height: 1.6;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #ffffff;
+    color: black;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.navbar a:hover {
+    background-color: #ff0000;
+    color: black;
+}
+
+.navbar form {
+    display: flex;
+}
+
+.navbar input[type="text"] {
+    flex: 1;
+    padding: 0.5em;
+}
+
+.navbar button[type="submit"] {
+    background-color: #838583cc;
+    color: white;
+    padding: 0.5em 1em;
+    border: #000000;
+    cursor: pointer;
+}
+
+.navbar button[type="submit"]:hover {
+    background-color: #313131;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+    color: #4b4949;
+    padding: 2em;
+    text-align: center;
+}
+
+.content {
+    padding: 2em;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: #8b8b8b;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+}
+.scrolling-container {
+    width: 100%;
+    overflow: hidden;
+}
+.scrolling-wrapper {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+.car {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    text-align: center;
+}
+.car img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.car {
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+    transition: transform .5s ease;
+}
+
+.car:hover img {
+    transform: scale(1.1);
+}
+
+.car a {
+    text-decoration: none;
+    color: black;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% - 20px)); /* Adjusted to include margin */
+    }
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}

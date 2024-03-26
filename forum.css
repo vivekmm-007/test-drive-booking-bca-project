@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #4caf50;
+    padding: 10px;
+    color: white;
+    text-align: center; /* Makes the header centered */
+}
+
+header h1 {
+    display: inline;
+    margin-left: 10px;
+    text-align: center;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #4caf50;
+}
+
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Add a border to the bottom of each post */
+.post {
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 0;
+}

@@ -1,0 +1,20 @@
+body {
+    background-color: #1a1a1a;
+    font-family: 'Arial', sans-serif;
+    color: #d3d3d3;
+   }
+  h2 {
+    font-family: 'Poppins', sans-serif;
+               }
+               body {
+               font-family: Arial, sans-serif;
+           }
+           div.scroll-container {
+            width: 1200px;
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+           }
+           div.scroll-container img {
+            padding: 10px;
+          }

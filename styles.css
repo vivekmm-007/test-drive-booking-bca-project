@@ -1,0 +1,80 @@
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #333;
+   color: #fff;
+   font-family: Arial, sans-serif;
+}
+
+.bg-image {
+   background-image: url('ui.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         z-index: -1;
+}
+.login {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: rgba(0, 0, 0, 0.3);
+   padding: 20px;
+   border-radius: 20px;
+   max-width: 300px;
+   width: 100%;
+}
+
+.form input[type="text"], .form input[type="password"] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border-radius: 20px; 
+}
+
+.form input[type="submit"] {
+   background-color: #4CAF50;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   border-radius: 20px; 
+}
+h1 {
+   text-align: center;
+   color: white;
+  }
+.form input[type="submit"]:hover {
+   background-color: #45a049;
+}
+.admin-link {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   display: inline-block;
+   padding: 5px 10px;
+   border-radius: 5px;
+   background-color: #333;
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+ .admin-link:hover {
+   background-color: #45a049;
+ }
+
+.form a {
+   color: #4CAF50;
+}
+
+.form a:hover {
+   color: #45a049;
+}

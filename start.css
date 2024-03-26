@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("ui.jpg");
+    background-size: cover;
+}
+
+.text {
+    text-align: center;
+    color: rgba(51, 51, 51, 0.5); 
+}
+
+.link {
+    display: block;
+    margin-top: 60px; 
+    text-decoration: none;
+    color: #333; 
+}
+.link:hover {
+    color: rgba(0, 86, 189, 0.5); 
+}

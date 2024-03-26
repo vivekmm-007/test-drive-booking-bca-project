@@ -1,0 +1,62 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    color: #f4f4f4;
+    text-align: center; /* Makes the header centered */
+}
+
+header h1 {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+}
+
+nav a {
+    color: #f4f4f4;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #555;
+}
+
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    color: #f4f4f4;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
